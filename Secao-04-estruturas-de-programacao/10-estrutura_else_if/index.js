@@ -1,15 +1,16 @@
-let velocidade = 75;
+let nome = 'John';
+let idade = 40;
 
-// if (velocidade <= 80) {
-//   console.log('Não foi multado');
-// } else {
-//   console.log('Foi multado');
-// }
-
-if (velocidade > 80) {
-  console.log('Acima da velocidade permitida');
-} else if (velocidade >= 50 && velocidade <= 80) {
-  console.log('Você está dentro da velocidade permitida');
+if (nome != undefined && nome == 'Paul') {
+  console.log('O nome está definido');
+} else if (nome == 'John' && nome.length > 3 && idade > 30) {
+  console.log('O nome é John, tem mais de 3 caracteres e a idade é maior que 30');
 } else {
-  console.log('Você está muito devagar');
+  console.log('Não é o John')
+}
+
+if (1 > 2) {
+  console.log('1 é maior que 2 ???');
+} else if (1 < 2) {
+  console.log('1 é menor que 2');
 }
